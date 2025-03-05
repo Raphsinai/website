@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-!^ho=7z#!cw6(y6*=os994*#+a0_5%3uk8dc%&t@_s0=!@d(^g
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '192.168.68.104',
+    'raphsinai.pythonanywhere.com'
 ]
 
 INTERNAL_IPS = [
@@ -129,6 +127,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
+
+# STATIC_ROOT = '/home/raphsinai/mysite/website/personal/static/'
+# MEDIA_ROOT = '/home/raphsinai/mysite/website/personal/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
