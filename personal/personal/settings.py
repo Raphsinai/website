@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!^ho=7z#!cw6(y6*=os994*#+a0_5%3uk8dc%&t@_s0=!@d(^g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'raphsinai.pythonanywhere.com'
@@ -128,8 +128,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
 
-# STATIC_ROOT = '/home/raphsinai/mysite/website/personal/static/'
-# MEDIA_ROOT = '/home/raphsinai/mysite/website/personal/media/'
+STATIC_ROOT = '/home/raphsinai/mysite/website/personal/static/'
+MEDIA_ROOT = '/home/raphsinai/mysite/website/personal/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
